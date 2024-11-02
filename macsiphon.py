@@ -9,7 +9,7 @@ import fnmatch
 #|_|  |_\__,_\__|___/_| .__/_||_\___/_||_|
 #                     |_|                 
 
-# Created by Ismail-Benali
+# Created by H3l!0s_T3k
 # Date: 01\11\2024
 # _______________________________________
 
@@ -73,9 +73,9 @@ def main():
         print("USB drive found. Extracting data...")
         create_tarball(usb_drive_path, macintosh_hd_path, directories_to_extract, file_types_to_extract)
         copy_extracted_data(usb_drive_path, macintosh_hd_path, directories_to_extract)
-        print("Data extraction completed successfully.")
+        print("Data extraction completed successfully:)")
     else:
-        print("USB drive not found. Please ensure it is connected.")
+        print("USB drive not found. Please ensure it is connected:(")
 
 if __name__ == "__main__":
     main()
